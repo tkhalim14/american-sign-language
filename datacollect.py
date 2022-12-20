@@ -10,8 +10,8 @@ detector = HandDetector(maxHands=1)
 offset = 20 # for the hand frame for classifier
 imgSize = 300
 
-folder = "Data/J"
-counter=0
+folder = "Data/H"
+counter=47
 
 #Teachable Machine.com for training models
 

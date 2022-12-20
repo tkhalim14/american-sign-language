@@ -11,10 +11,10 @@ classifier = Classifier("Model/keras_model.h5", "Model/labels.txt")
 offset = 20
 imgSize = 300
  
-folder = "Data/C"
+#folder = "Data/"
 counter = 0
  
-labels = ["A", "B", "C"]
+labels = ["A", "B", "C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
  
 while True:
     success, img = cap.read()
